@@ -1,6 +1,6 @@
 import time
 
-def calculate_time(self):
+def calculate_time():
 
     #store start time
     start = time.time()
