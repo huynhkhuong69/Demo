@@ -1,19 +1,15 @@
-#decorator function
-def tripler(func):
-
-"""The decorate_func() will pass the message "This is Python!" into the func as an argument, then  the func() were used 3 times in the inner_fuc"""
-# func() is used 3 times
-	def inner_func():
-		print("Decorate Message!")
-		func()
-		func()
-		func()
-	return inner_func
+ #decorator function
+def tripler(func):        
+    def inner():
+        print("You're now decorated")
+        func()				# this function is used on three times
+        func()				# this function is used on three times	
+        func()				# this function is used on three times
+    return inner
 
 #define another function
-def decorate_func():
-	print("This is Python!")
-
-# pass the decorate_func as an argument
-decorated = triple(decorate_func)
+def decorate_me():
+    print("This is python!")
+    
+decorated = tripler(decorate_me)
 decorated()
