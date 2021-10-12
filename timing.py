@@ -1,7 +1,6 @@
 import time
 
-@staticmethod
-def calculate_time():
+def calculate_time(self):
 
     #store start time
     start = time.time()
