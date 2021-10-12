@@ -1,5 +1,6 @@
 import time
 
+@staticmethod
 def calculate_time():
 
     #store start time
