@@ -26,7 +26,7 @@ def calculator(number1, number2, operator):
             return number1 ** number2
         else:
             return False
-    except error:
+    except ZeroDivisionError:
         return False
 
 def parse_input():
