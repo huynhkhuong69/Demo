@@ -8,6 +8,9 @@ def calculate_time():
     time.sleep(2)
     end_time = time.time()
     print("Total time ", end_time - start_time)
+    
+calculate_time()    
+  
 
 =======
 
