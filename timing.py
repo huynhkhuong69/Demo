@@ -12,5 +12,5 @@ def calculate_time(self):
     #print total time
     print("Total time ", end - start)
 
-calculate_time()
+calculate_time(self)
 
