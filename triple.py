@@ -1,9 +1,7 @@
 #decorator function
 def tripler(func):
 
-"""The decorate_func() will pass the message "This is Python!" into the func 
-as an argument, then  the func() were used 3 times in the inner_fuc
-"""
+"""The decorate_func() will pass the message "This is Python!" into the func as an argument, then  the func() were used 3 times in the inner_fuc"""
 # func() is used 3 times
 	def inner_func():
 		print("Decorate Message!")
