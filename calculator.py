@@ -35,3 +35,6 @@ def parse_input():
     first_number = float(first_number)
     second_number = float(second_number)
     print(calculator(first_number,second_number,operator))
+    
+if __name__ == "__main__":  
+    parse_input()
