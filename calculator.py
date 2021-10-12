@@ -1,4 +1,4 @@
- from os import error
+from os import error
 
 def multiply_list(input_list):
  """This function operations will compute addition (+), subtraction(-), multiplication(*), division(/), 
