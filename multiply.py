@@ -10,4 +10,4 @@ def multiply_list(input_list):
         return False
 
 if __name__ == "__main__":
-    print(int(multiply_list([1,2,3,7])))
+    print(str(multiply_list([1,2,3,7])))
