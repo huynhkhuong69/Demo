@@ -1,7 +1,7 @@
  #decorator function
 def tripler(func):        
     def inner():
-        print("You're now decorated")
+        print("You are now decorated")
         func()				# this function is used on three times
         func()				# this function is used on three times	
         func()				# this function is used on three times
