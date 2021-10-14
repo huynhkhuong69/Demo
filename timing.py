@@ -28,3 +28,4 @@ def timer():
     
 #let's decorate timer function
 run_timer = calculate_time(timer) 
+run_timer()
