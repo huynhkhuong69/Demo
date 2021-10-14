@@ -11,13 +11,13 @@ def calculate_time(func):
         start = time.time()
 
         #calling timer function in the wrapper function
-        timer()
+        func()
 
         #store end time
         end = time.time()
 
         #print total time
-        print("Total time", end - start)
+        print(end - start)
  
     return wrapper
 
@@ -25,7 +25,6 @@ def calculate_time(func):
 #use time.sleep(2) to test
 def timer():
     print("Print!")
-    time.sleep(2)
     
 #let's decorate timer function
 run_timer = calculate_time(timer) 
