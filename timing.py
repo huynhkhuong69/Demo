@@ -24,7 +24,7 @@ def calculate_time(func):
 #this function will be call in the wrapper function
 #use time.sleep(2) to test
 def timer():
-    time.sleep(2)
+    time.sleep(0)
 
 #let's decorate timer function
 run_timer = calculate_time(timer)
