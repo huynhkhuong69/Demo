@@ -26,6 +26,5 @@ def calculate_time(func):
 def timer():
     time.sleep(2)
 
-#let's decorate timer function
-run_timer = calculate_time(timer)
+
 
