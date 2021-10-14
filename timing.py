@@ -1,4 +1,4 @@
-import time
+
 
 #decorator function
 def calculate_time(func):
@@ -23,6 +23,8 @@ def calculate_time(func):
 
 def print_time():
     print("Total time")
+    
+print_time = calculate_time(print_time)
     
 
  
