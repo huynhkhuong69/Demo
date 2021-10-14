@@ -17,14 +17,14 @@ def calculate_time(func):
         end = time.time()
 
         #print total time
-        print(end - start)
+        print("Total time", end - start)
  
     return wrapper
 
 #this function will be call in the wrapper function
 #use time.sleep(2) to test
 def timer():
-    print("Time")
+    print("Print!")
     
 #let's decorate timer function
 run_timer = calculate_time(timer) 
