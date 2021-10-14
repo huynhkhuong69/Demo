@@ -26,5 +26,4 @@ def print_time():
 
 print_time = calculate_time(print_time)
 
-print_time()
  
