@@ -1,4 +1,4 @@
-
+import time
 
 #decorator function
 def calculate_time(func):
