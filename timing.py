@@ -11,7 +11,7 @@ def calculate_time(func):
         start = time.time()
 
         #calling timer function in the wrapper function
-        
+        timer()
 
         #store end time
         end = time.time()
