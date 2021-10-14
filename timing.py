@@ -10,7 +10,7 @@ def calculate_time(func):
         #time.time() to get the current time in seconds
         start = time.time()
 
-        #calling timer function in the wrapper function
+        #calling 
         func()
 
         #store end time
@@ -21,11 +21,10 @@ def calculate_time(func):
  
     return wrapper
 
-#this function will be call in the wrapper function
-#use time.sleep(2) to test
-def timer():
-    print("Print!")
-    
-#let's decorate timer function
-run_timer = calculate_time(timer) 
-run_timer()
+def print_time():
+    print("Total time")
+
+print_time = calculate_time(print_time)
+
+print_time()
+ 
