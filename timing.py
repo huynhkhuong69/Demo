@@ -17,7 +17,7 @@ def calculate_time(func):
         end = time.time()
 
         #print total time
-        print(end - start)
+        
  
     return wrapper
 
