@@ -1,5 +1,3 @@
-from os import error
-
 def multiply_list(input_list):
     try:
         output = int(1)
